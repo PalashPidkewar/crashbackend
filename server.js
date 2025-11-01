@@ -3,7 +3,7 @@
 const express = require('express');
 const cors = require('cors');
 const cron = require("node-cron"); // <-- Add this
-const db = require("../backend/config/db"); // <-- Add this
+const db = require("./config/db"); // <-- Add this
 const chatRoutes = require('./routes/chatRoutes');
 const authRoutes = require('./routes/authRoutes');
 
